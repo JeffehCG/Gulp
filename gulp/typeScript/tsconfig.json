@@ -1,0 +1,11 @@
+//configuração para converter o arquivo typescript para javascript
+{
+    "files": [
+        "src/app.ts" //onde os arquivos ts estão ou "src/**/*.ts" - seleciona todos arquivos ts da pasta
+    ],
+    "compilerOptions": {
+        "rootDir": "src", //onde esta a pasta raiz
+        "noImplicitAny": true, // não aceitar codigo implicito no ts, exemplo, uma variavel que não tem um tipo definido
+        "target": "es5" // compilando o arquivo para target: es5 - que é uma versão mais antiga do js, outro por exemplo sao 0 es6 e es7
+    }
+}

@@ -1,0 +1,28 @@
+https://gulpjs.com/ -- site oficial gulp 
+
+  devDependencies no arquivo package.json {
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.6.1",
+    "gulp": "3.9.1",
+    "gulp-babel": "7.0.1",
+    "gulp-concat": "2.6.1",
+    "gulp-sass": "4.0.1",
+    "gulp-typescript": "4.0.2",
+    "gulp-uglify": "3.0.0",
+    "gulp-uglifycss": "1.0.9",
+    "typescript": "2.8.3"
+  }
+
+  Instalando gulp 
+        npm i -g gulp-cli
+  em seguida dentro da pasta para instalar as dependencias do arquivo package.json
+        npm i 
+
+gulp -- help - lista de comandos que podem ser utilizados
+   
+sass -- é um pré processador de css, nele você consegue colocar novas funcionalidades, deixa o codigo mais organizado (porem voce deve usar o gulp para converter no css original para o browser ler)
+
+PROJETO SAP ---------------------
+duas funções importantes criadas no patch.json 
+start -- start o servidor gulp (npm start)
+build -- atualizar versão mais nova do build (npm run build)
